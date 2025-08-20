@@ -1,5 +1,4 @@
-#this code has one redundancy right now that it modifies the dataframe to add bias 
-#the weights produced by this code is similar to the weightsproduced by sklearn perceptron
+ #the weights produced by this code is similar to the weightsproduced by sklearn perceptron
 #we need to consider the perceptrons weight as coefficients to a line , thats why difference in value of my perceptron and sklearn perceptron 
 #plotted both came out to be same
 def Perceptron(X,y,epochs=1000,learning_rate=0.001):
